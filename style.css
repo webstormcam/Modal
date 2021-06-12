@@ -6,6 +6,10 @@ body{
 
 }
 
+#overlay{
+    display: none;
+}
+
 #open-modal,#close-modal{
     background-color: royalblue;
     font-size: 20px;
