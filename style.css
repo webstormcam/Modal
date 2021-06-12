@@ -8,6 +8,14 @@ body{
 
 #overlay{
     display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #open-modal,#close-modal{
@@ -21,12 +29,15 @@ body{
 }
 
 #modal{
-    background-color: orange;
+    background-color: white;
     padding: 20px;
     height: 200px;
     margin: 0 auto;
     max-width: 600px;
+    position: relative;
+    top: 30%;
 }
+
 
 
 
